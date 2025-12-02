@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="css/styles.css" />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>More - Kokoa Talk</title>
+        <title>Settings - Kokoa Talk</title>
     </head>
     <body>
         <div class="status-bar">
@@ -24,42 +24,41 @@
             </div>
         </div>
 
-        <header class="screen-header">
-            <h1 class="screen-header__title">More</h1>
-            <div class="screen-header__icons">
-                <span>＠</span><span>★</span><span><a href="settings.html">◈</a></span>
+        <header class="alt-header">
+            <div class="alt-header__column">
+                <a href="more.html">
+                    <i>◁</i>
+                </a>
             </div>
+            <div class="alt-header__column">
+                <h1 class="alt-header__title">Settings</h1>
+            </div>
+            <div class="alt-header__column"><i>※</i></div>
         </header>
 
         <main class="main-screen more-screen">
-            <div class="user-component">
-                <div class="user-component__column">
-                    <img src="#" class="user-component__avatar" />
-                    <div class="user-component__text">
-                        <h4 class="user-component__title">Nicolas</h4>
-                        <h6 class="user-component__subtitle">+ 787 666 999</h6>
+            <ul class="settings-list">
+                <li class="settings__setting">
+                    <div class="settings__setting-column">
+                        <i>※</i> <span>Notices</span>
                     </div>
-                </div>
-                <div class="user-component__column">▤</div>
-            </div>
-            <div class="icon-row">
-                <div class="icon-row__icon"><i>◎</i><span>Calendar</span></div>
-                <div class="icon-row__icon"><i>⊙</i><span>Emoticons</span></div>
-                <div class="icon-row__icon"><i>▨</i><span>Themes</span></div>
-                <div class="icon-row__icon"><i>♨</i><span>Account</span></div>
-            </div>
-            <div class="more-suggestions">
-                <h4 class="more-suggestions__title">Suggestions</h4>
-                <div class="more-suggestions__icons">
-                 <div class="more-suggestions__icon">
-                    <div class="more-suggestions__icon-image"><i>◐</i></div>
-                    <span class="more-suggestions__icon-text">Kokoa Story</span>
-                </div>
-                <div class="more-suggestions__icon">
-                    <div class="more-suggestions__icon-image"><i>◑</i></div>
-                    <span class="more-suggestions__icon-text">Kokoa Friends</span>
-                </div>
-            </div>
+                    <div class="settings__setting-column"></div>
+                </li>
+                <li class="settings__setting">
+                    <div class="settings__setting-column">
+                        <i>△</i>
+                        <span>Kakao Lab</span>
+                    </div>
+                    <div class="settings__setting-column"></div>
+                </li>
+                <li class="settings__setting">
+                    <div class="settings__setting-column">
+                        <i>○</i>
+                        <span>Version</span>
+                    </div>
+                    <div class="settings__setting-column">Latest Verstion</div>
+                </li>
+            </ul>
         </main>
 
         <nav class="nav">
